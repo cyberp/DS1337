@@ -33,6 +33,7 @@ void setup() {
   Serial.println("Tick Demo");
   
   // clear flags
+  rtc.init();
   rtc.clearFlags();
   
   // set date 

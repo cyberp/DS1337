@@ -30,6 +30,7 @@ void setup() {
   
   // set date 
   // 2014-10-20 
+  rtc.init();
   rtc.setDate(14, 10, 20);
   
   // set time

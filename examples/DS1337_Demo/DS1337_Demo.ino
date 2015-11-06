@@ -23,7 +23,8 @@ String input = "";
 * Setup 
 */
 void setup() {
-  // clear alarm/ticks flags
+  // clear alarm/ticks flags#
+  rtc.init();
   rtc.clearAlarm();
   rtc.resetTick();
   

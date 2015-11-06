@@ -123,7 +123,7 @@ unsigned long Date::getTimestamp() {
  * Constructor of class DS1337
  */
 DS1337::DS1337() {
-	init();
+	//init();
 }
 
 /**

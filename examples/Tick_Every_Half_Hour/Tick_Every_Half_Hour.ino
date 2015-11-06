@@ -33,6 +33,7 @@ void setup() {
   Serial.println();
   
   // set tick every hour
+  rtc.init();
   rtc.resetTick();
   rtc.setTickMode(DS1337_TICK_EVERY_HOUR);
   

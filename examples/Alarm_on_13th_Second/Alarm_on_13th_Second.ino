@@ -33,6 +33,7 @@ void setup() {
   Serial.println("13th. Second Alarm");
   
   // no ticks, clear flags
+  rtc.init();
   rtc.setTickMode(DS1337_NO_TICKS);
   rtc.clearFlags();
 
